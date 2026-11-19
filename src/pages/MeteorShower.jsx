@@ -42,7 +42,7 @@ export default function MeteorShower() {
 
     const params = {};
     if (month) params.month = month;
-    if (location) params.location = location;
+    if (location) params.hemisphere = location;
 
     const fetchData = async () => {
       setLoading(true);
