@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  @apply bg-stone-100 text-stone-800;
+}
+
